@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <!-- beginning of our pop up -->
+    <div class="modal" tabindex="-1" role="dialog" id="steve">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+         <h5 class="modal-title">HISTORY OF USA</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="close">
+            <span aria-hidden="true" >&times;</span>
+            </button>
+       </div>
+        <div class="modal-body">
+                    <p>The history of the United States is what happened in the past in the United States, a country in North America.
+
+                            Native Americans lived in the Americas for thousands of years. English people in 1607 went to the place now called Jamestown, Virginia. Other European settlers went to the colonies, mostly from England and later Great Britain. France, Spain, and the Netherlands also colonized North America. In 1775, a war between the thirteen colonies and Britain began when the colonists were upset over tyrannical British policies. Just after dawn on April 19, 1775 the British attempted to disarm the Massachusetts militia at Concord, Massachusetts[source?], thus beginning the war with the "Shot Heard Round the World." On July 4, 1776, Founding Fathers wrote the United States Declaration of Independence. They won the Revolutionary War and started a new country. They signed the constitution in 1787 and the Bill of Rights in 1791. General George Washington, who had led the war, became its first president. During the 19th century, the United States gained much more land in the West and began to become industrialized. In 1861, several states in the South attempted to leave the United States to start a new country called the Confederate States of America. This caused the American Civil War. After the war, Immigration resumed. Some Americans became very rich in this Gilded Age and the country developed one of the largest economies in the world.
+                            
+                            In the early 20th century, the United States became a world power, fighting in World War I and World War II. Between the wars, there was an economic boom called the Roaring Twenties when people became richer and a bust called the Great Depression when most were poorer. The Great Depression ended with World War II.
+                            
+                            The United States and the Soviet Union entered the Cold War. This included wars in Korea and Vietnam. During this time, African-Americans, Chicanos, and women sought more rights. In the 1970s and 1980s, the United States started to make fewer things in factories. The country then went through the worst recession it had since the Great Depression. In the late 1980s the Cold War ended, helping the United States out of recession. The Middle East became more important in American foreign policy, especially after the September 11 attacks in 2001.</p>
+         </div>
+             <div class="modal-footer">
+                <button class=" btn btn-secondary" data-dismiss="modal" type="button">close</button>
+                <button class="btn btn-primary">save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ending of our pop up -->
+
+    
+    <nav style="background-color: red;" class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#tunde">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="tunde">
+               
+            <a href="" class="navbar-brand">
+              <img src="./images/project.jfif" alt="">
+            </a>
+            <span class="navbar-text">
+              UNITED STATE OF AMERICA
+            </span>
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a href=""  class="nav-link dropdown-toggle" data-toggle="dropdown" id="steven">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" id="steven">Contact us</a>
+            <div class="dropdown-menu" style="background-color: red;">
+                <a href="" class="dropdown-item">history</a>
+                <a href=""class="dropdown-item">items</a>
+                <a href=""class="dropdown-item">gifts</a>
+            </div>
+
+            <li class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" id="steven">About us</a>
+                <div class="dropdown-menu">
+                  <a href=""class="dropdown-item">link</a>
+                  <a href=""class="dropdown-item">location</a>
+                  <a href=""class="dropdown-item">depts</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" id="steven">Career</a>
+                <div class="dropdown-menu">
+                    <a href=""class="dropdown-item">internship</a>
+                    <a href=""class="dropdown-item">jobs</a>
+                    <a href=""class="dropdown-item">vacancies</a>
+
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" id="steven">Get in touch</a>
+                <div class="dropdown-menu">
+                    <a href=""class="dropdown-item">phone no</a>
+                    <a href=""class="dropdown-item">email</a>
+                    <a href=""class="dropdown-item">fax</a>
+
+                </div>
+            </li>
+        </ul>
+        
+        
+    </nav>
+
+
+
+    
+     <!-- beginning of slide show -->
+     <div class="carousel slide" data-ride="carousel" id="slidecontrols">
+         <ol class="carousel-indicators">
+            <li data-target="#slidecontrols" data-slide-to="0" class="active"></li>
+            <li data-target="#slidecontrols" data-slide-to="1" ></li>
+            <li data-target="#slidecontrols" data-slide-to="2"></li>
+         </ol>
+         
+          <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="1000">
+                 <img src="./images/project3.jfif" alt="" class="d-block w-100">
+                 <div class="carousel-caption d-md-block omo">
+                     
+                     <button class="btn btn-outline-secondary" style="background-color: red;" data-toggle="modal" data-target="#steve">
+                            HISTORY
+                        </button>
+                     <h5>UNITED STATE OF AMERICA</h5>
+                     <p> a country in North America</p>
+                 </div>
+              </div>
+
+              <div class="carousel-item" data-interval="2000">
+                <img src="./images/project4.jpg" alt="" class="d-block w-100">
+                <div class="carousel-caption d-md-block omo">
+                    <h5>UNITED STATE PRESIDENT</h5>
+                    <p>Donald John Trump (born June 14, 1946) is the 45th and current president of the United States. Before entering politics, he was a businessman and television personality.
+
+                        Trump was born and raised in the New York City borough of Queens, and received a bachelor's degree in economics from the Wharton School at the University of Pennsylvania. He took charge of his family's real-estate business in 1971, renamed it The Trump Organization, and expanded its operations from Queens and Brooklyn into Manhattan. The company built or renovated skyscrapers, hotels, casinos, and golf courses. Trump later started various side ventures, mostly by licensing his name. He owned the Miss Universe and Miss USA beauty pageants from 1996 to 2015, and produced and hosted The Apprentice, a reality television show, from 2003 to 2015. Forbes estimates his net worth to be $3.1 billion.[a]
+                        
+                        Trump entered the 2016 presidential race as a Republican and defeated 16 other candidates in the primaries. His political positions have been described as populist, protectionist, and nationalist. He was elected in a surprise victory over Democratic nominee Hillary Clinton, although he lost the popular vote.[b] He became the oldest first-term U.S. president,[c] and the first one without prior military or government service. His election and policies have sparked numerous protests. Trump has made many false or misleading statements during his campaign and presidency. The statements have been documented by fact-checkers, and the media have widely described the phenomenon as unprecedented in American politics. Many of his comments and actions have also been characterized as racially charged or racist.
+                        
+                        During his presidency, Trump ordered a travel ban on citizens from several Muslim-majority countries, citing security concerns; after legal challenges, the Supreme Court upheld the policy's third revision. He enacted a tax-cut package for individuals and businesses, rescinding the individual health insurance mandate. He appointed Neil Gorsuch and Brett Kavanaugh to the Supreme Court. In foreign policy, Trump has pursued an America First agenda, withdrawing the U.S. from the Trans-Pacific Partnership trade negotiations, the Paris Agreement on climate change, and the Iran nuclear deal. He recognized Jerusalem as the capital of Israel, imposed import tariffs triggering a trade war with China, and started negotiations with North Korea toward their denuclearization.
+                        
+                        A special counsel investigation led by Robert Mueller found that Trump and his campaign welcomed and encouraged Russian foreign interference in the 2016 presidential election under the belief that it would be politically advantageous, but did not find sufficient evidence to press charges of criminal conspiracy or coordination[d] with Russia. Mueller also investigated Trump for obstruction of justice, and his report neither indicted nor exonerated Trump on that score. The House of Representatives launched an impeachment inquiry following a September 2019 report that Trump had abused his presidential power by pressuring the president of Ukraine to undertake actions which would have the effect of helping Trump's 2020 re-election campaign. Among other inducements, Trump ordered congressionally-mandated military aid for Ukraine to be withheld. Witnesses subsequently testified that Trump and his surrogates had been carrying out that pressure campaign for months.</p>
+                </div>
+             </div>
+
+             <div class="carousel-item"data-interval="2000">
+                <img src="./images/maxresdefault.jpg" alt="" class="d-block w-100">
+                <div class="carousel-caption d-md-block omo">
+                    <h5>UNITED STATE OF AMERICA AND THE STATES</h5>
+                    <p>In the United States, a state is a constituent political entity, of which there are currently 50. Bound together in a political union, each state holds governmental jurisdiction over a separate and defined geographic territory and shares its sovereignty with the federal government. Due to this shared sovereignty, Americans are citizens both of the federal republic and of the state in which they reside.[3] State citizenship and residency are flexible, and no government approval is required to move between states, except for persons restricted by certain types of court orders (such as paroled convicts and children of divorced spouses who are sharing custody).
+
+                        States are divided into counties or county-equivalents, which may be assigned some local governmental authority but are not sovereign. County or county-equivalent structure varies widely by state, and states may also create other local governments. State governments are allocated power by the people (of each respective state) through their individual constitutions. All are grounded in republican principles, and each provides for a government, consisting of three branches, each with separate and independent powers: executive, legislative, and judicial.[4]
+                        
+                        States, unlike U.S. territories, possess a number of powers and rights under the United States Constitution. States and their residents are represented in the United States Congress, a bicameral legislature consisting of the Senate and the House of Representatives. Each state is also entitled to select a number of electors (equal to the total number of representatives and senators from that state) to vote in the Electoral College, the body that directly elects the President of the United States. Additionally, each state has the opportunity to ratify constitutional amendments, and, with the consent of Congress, two or more states may enter into interstate compacts with one another. The police power of each state is also recognized.
+                        
+                        Historically,the tasks of local law enforcement, public education, public health, regulating intrastate commerce, and local transportation and infrastructure have generally been considered primarily state responsibilities, although all of these now have significant federal funding and regulation as well. Over time, the Constitution has been amended, and the interpretation and application of its provisions have changed. The general tendency has been toward centralization and incorporation, with the federal government playing a much larger role than it once did. There is a continuing debate over states' rights, which concerns the extent and nature of the states' powers and sovereignty in relation to the federal government and the rights of individuals.</p>
+                </div>
+             </div>
+          </div>
+
+            <a href="#slidecontrols" class="carousel-control-prev" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">
+                  previous
+              </span>
+        
+            </a>
+
+            <a href="#slidecontrols" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">
+                    next
+                </span>
+          
+              </a>
+     </div>
+     <!-- ending of slide show -->
+    
+</body>
+</html>
